@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body {
+      font-family: Arial, sans-serif;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f3f3f3;
+    }
+
+    .code-container {
+      display: flex;
+      gap: 10px;
+    }
+
+    .code {
+      width: 40px;
+      height: 50px;
+      text-align: center;
+      font-size: 24px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .code:focus {
+      border-color: #007bff;
+      outline: none;
+      box-shadow: 0 0 5px rgba(0,123,255,0.5);
+    }
